@@ -55,7 +55,7 @@ model_name = f'vae_epochs_{epochs}embed_{emb_dim1}lr_{lr}losswt_{loss_wt}'
 pt_modelname = f'multitaskmlp_{mlp_inpemb}embed_{f_dim1}fc1_{f_dim2}fc2_epochs_32bs.lr.pt'
 
 # Loading the data saved while predicting intervention
-data_path = f'/data/data_icml/data_pred/paramvitals/raw/intervention_{intervention}/standard_scaled/'
+data_path = f'/data/data_chil/data_pred/paramvitals/raw/intervention_{intervention}/standard_scaled/'
 pickle_paths = [os.path.join(data_path, i + '.pickle') for i in dataset_splits]
 
 X2 = {}
