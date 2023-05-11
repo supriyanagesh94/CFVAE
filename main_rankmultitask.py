@@ -19,7 +19,7 @@ pred_window = 24
 dataset_splits = 'train', 'val', 'test'
 intervention = 'vaso'
 
-ROOT_DATA_FOLDER = '/data/data_icml/'
+ROOT_DATA_FOLDER = '/data/data_chil/'
 DATA_INPUT_PATH = f'{ROOT_DATA_FOLDER}data_rank/paramvitals/raw/intervention_{intervention}/predwindow_{pred_window}/standard_scaled/'
 DATA_OUTPUT_PATH = DATA_INPUT_PATH
 
